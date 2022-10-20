@@ -1,0 +1,549 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    background-color: #FF78E1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    border: 5px solid black;
+    border-radius:35px;
+    position: fixed;
+    top: 3px;
+    right: 1px;
+    bottom: unset;
+    left: 1px
+
+}
+
+.logo {
+
+    color: black;
+    font-size: 60px;
+    padding: 5px ;
+    line-height:50px;
+    text-decoration: none;
+    border-radius: 20px;
+    box-shadow: 30px 3px 15px 5px fuchsia;
+
+
+}
+
+.servicioCliente h2{
+    font-size: 25px;
+    position:relative;
+    top: 2px;
+    right: 1350px;
+    bottom: unset;
+    left: 150px;
+    text-align: center;
+}
+
+.listaservcliente li{
+    list-style:none;
+    position:relative;
+    top: 2px;
+    right: 1350px;
+    bottom: unset;
+    left: 150px;
+    text-align: center;
+    
+
+}
+
+.sobreNosotros h2{
+    font-size: 25px;
+    position: fixed;
+    top: 720px;
+    right: 1px;
+    bottom: unset;
+    left: 430px;
+}
+
+.boxnosotros1{
+    position: fixed;
+    top: 750px;
+    right: 1px;
+    bottom: unset;
+    left: 460px;
+    list-style: none;
+}
+
+.boxnosotros2{
+    position: fixed;
+    top: 770px;
+    right: 1px;
+    bottom: unset;
+    left: 485px;
+    list-style: none;
+}
+
+.boxnosotros3{
+    position: fixed;
+    top: 790px;
+    right: 1px;
+    bottom: unset;
+    left: 488px;
+    list-style: none;
+}
+
+
+
+
+.listafooter div h2{
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.informacion h2{
+    font-size: 25px;
+    position: fixed;
+    top: 720px;
+    right: 10px;
+    bottom: unset;
+    left: 80px;
+    align-items: center;
+
+}
+
+.boxinformacion1{
+    position: fixed;
+    top: 830px;
+    right: 50px;
+    bottom: unset;
+    left: 77px;
+    align-items: center;
+
+}
+
+.boxinformacion2{
+    position: fixed;
+    top: 750px;
+    right: 30px;
+    bottom: unset;
+    left: 120px;
+    align-items: center;
+
+}
+
+.boxinformacion3{
+    position: fixed;
+    top: 770px;
+    right: 10px;
+    bottom: unset;
+    left: 115px;
+
+}
+
+.boxinformacion4{
+    position: fixed;
+    top: 790px;
+    right: 10px;
+    bottom: unset;
+    left: 80px;
+    align-items: center;
+
+}
+
+.boxinformacion5{
+    position: fixed;
+    top: 805px;
+    right: 20px;
+    bottom: unset;
+    left: 89px;
+    align-items: center;
+    list-style: none;
+
+}
+
+
+.seguinos h2{
+    font-size: 25px;
+    position: fixed;
+    top: 719px;
+    right: 40px;
+    bottom: unset;
+    left: 1400px;
+    justify-content: space-between;
+}
+
+
+.estiloMenu li{
+    list-style: none;
+    display:inline;
+    text-align: center;
+    line-height: 5px;
+    padding: 20px;
+    
+    }
+
+    .estiloMenu li a{
+        font-size: 25px;
+        text-decoration: none;
+        color:black; 
+        margin: 0 20px;
+        line-height: 5px;
+        align-items: center;
+    }
+    
+    .servicios h2{
+        color: black;
+
+    }
+
+    .servicios p{
+        color: white;
+    }
+
+.servicios{
+    text-align:center;
+
+}
+
+.caja{
+    width: 300px;
+    height: 70px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+
+.caja1{
+    background-color: #FF78E1;
+    position: fixed;
+    top: 500px;
+    right: 1px;
+    bottom: 20px;
+    left: 25px;
+}
+.caja3{
+    background-color: #FF78E1;
+    position: fixed;
+    top: 400px;
+    right: 1px;
+    bottom: 20px;
+    left: 25px;
+    
+}
+.caja5{
+    background-color: #FF78E1;
+    position: fixed;
+    top: 300px;
+    right: 1px;
+    bottom: 20px;
+    left: 25px;
+}
+
+.boxservicios1{
+    color: white;
+    font-size: 25px;
+    position: fixed;
+    top: 520px;
+    right: 250px;
+    bottom: 30px;
+    left: 30px;
+    text-align: center;
+
+}
+
+.boxservicios2{
+    color: white;
+    font-size: 25px;
+    position: fixed;
+    top: 420px;
+    right: 250px;
+    bottom: 30px;
+    left: 30px;
+    text-align: center;
+
+
+}
+
+.boxservicios3{
+    color: white;
+    font-size: 25px;
+    position: fixed;
+    top: 320px;
+    right: 250px;
+    bottom: 30px;
+    left: 30px;
+    text-align: center;
+
+}
+
+
+.imagenPrincipal{
+    width: 1800px;
+    height: 700px;
+    justify-content: center;
+    position: fixed;
+    top: 150px;
+    right: 1px;
+    bottom: 20px;
+    left: 0px;
+
+}
+
+.diseno img{
+    width: 400px;
+    height:400px;
+}
+
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    gap: 20px; /** esto sustituye a margin**/
+
+}
+
+.cajacurso{
+    width: 300px;
+    height: 70px;
+    border-radius: 10px;
+    border: 5px solid black;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.cajacurso1{
+    background-color: #FF78E1;
+    position: fixed;
+    top: 500px;
+    right: 1px;
+    bottom: 20px;
+    left: 25px;
+    text-align: center;
+}
+
+.cajacurso2{
+    background-color: #FF78E1;
+    position: fixed;
+    top: 400px;
+    right: 1px;
+    bottom: 20px;
+    left: 25px;
+    text-align: center;
+}
+
+.cajacurso3{
+    background-color: #FF78E1;
+    position: fixed;
+    top: 300px;
+    right: 1px;
+    bottom: 20px;
+    left: 25px;
+    text-align: center;
+}
+
+.boxsemi{
+    color: white;
+    font-size: 25px;
+    position: fixed;
+    top: 290px;
+    right: 400px;
+    bottom: 30px;
+    left: 400px;
+}
+
+.boxesculpidas{
+    color: white;
+    font-size: 25px;
+    position: fixed;
+    top: 390px;
+    right: 400px;
+    bottom: 30px;
+    left: 400px;
+
+}
+.boxsoft{
+    color: white;
+    font-size: 25px;
+    position: fixed;
+    top: 500px;
+    right: px;
+    bottom: 30px;
+    left: 400px;
+
+}
+
+.principal{
+    background-color: black;
+
+}
+
+.redesSociales li img{
+    width: 30px;
+    height: 30px;
+}
+
+.redesSociales{
+    list-style: none;
+}
+
+.logoface{
+    text-decoration: none;
+}
+.informacion ul li a img{
+    width: 20px;
+    height: 20px;
+    
+}
+.redesSociales li img a{
+    text-decoration: none;
+
+}
+
+.boxredes1{
+    position: fixed;
+    top: 820px;
+    right: 100px;
+    bottom: 20px;
+    left: 1400px;
+    text-align: center;
+}
+
+.boxredes2{
+    position: fixed;
+    top: 785px;
+    right: 100px;
+    bottom: 20px;
+    left: 1400px;
+    text-align: center;
+}
+
+.boxredes3{
+    position: fixed;
+    text-align: center;
+    top: 750px;
+    right: 100px;
+    bottom: 50px;
+    left: 1400px;
+    
+}
+
+.boxformulario{
+    color: white;
+    font-size: 30px;
+    position: fixed;
+    top: 190px;
+    right: 1200px;
+    bottom: 300px;
+    left: 25px;
+
+}
+
+.boxform{
+    background-color: white;
+    font-size: 25px;
+    width: 500px;
+    height: 50px;
+    border-radius: 5px;
+    color: black;
+    position: fixed;
+    top: 250px;
+    right: 1200px;
+    bottom: 300px;
+    left: 180px;
+    justify-content: center;
+}
+
+.boxform1{
+
+    background-color: white;
+    font-size: 25px;
+    width: 500px;
+    height: 50px;
+    border-radius: 5px;
+    color: black;
+    position: fixed;
+    top: 310px;
+    right: 1000px;
+    bottom: 310px;
+    left: 180px;
+    justify-content: center;
+}
+
+.boxform2{
+
+    background-color: white;
+    font-size: 25px;
+    width: 500px;
+    height: 150px;
+    border-radius: 5px;
+    color: black;
+    position: fixed;
+    top: 370px;
+    right: 1200px;
+    bottom: 300px;
+    left: 180px;
+}
+
+.nombreformulario{
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    top: 260px;
+    right: 1200px;
+    bottom: 200px;
+    left: 100px;
+
+}
+
+.nombrecorreo{
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    top: 325px;
+    right: 1200px;
+    bottom: 200px;
+    left: 100px;
+}
+
+.nombremensaje{
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    top: 400px;
+    right: 1200px;
+    bottom: 200px;
+    left: 100px;
+}
+
+.boxenviar{
+    width: 80px;
+    height: 30px;
+    position: fixed;
+    top: 525px;
+    right: 1000px;
+    bottom: 300px;
+    left: 600px;
+}
+
+footer{
+    background-color: #FF78E1;
+    align-items: center;
+    padding: 10px 0px 40px 0px;
+    border: 8px solid black;
+    border-radius:35px;
+    position: fixed;
+    top: 700px;
+    right: 1px;
+    bottom: 5px;
+    left: 0px;
+    
+
+
+}
+
+
+body{
+    background-color: black;
+}
